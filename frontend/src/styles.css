@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f5f7;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #026aa7;
+    padding: 10px 20px;
+    color: white;
+}
+.home-btn {
+    background-color: #026aa7;
+    border: 0px;
+    color: white;
+    font-size: large;
+}
+
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar .auth-links {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .auth-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Task Board */
+.body{
+    padding: 10px;
+}
+.btn{
+    background-color: #005083;
+    color: #ddd;
+    border: 0px;
+    padding: 5px 15px;
+}
+.search-sort{
+    display: flex;
+    justify-content: space-between;
+}
+.search-sort > div{
+    margin: 10px 0px;
+    
+
+}
+.task-board {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column {
+    background-color: #ebecf0;
+    border-radius: 3px;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.column h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-card {
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.card-btns{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.card-btns > button {
+    border: 0px;
+    border-radius: 12.5px;
+    margin: 2px;
+    padding: 2px 7px;
+    color: white;
+}
+#delete-btn{
+    background-color: red;
+}
+#edit-btn{
+    background-color: rgb(104, 104, 232);
+}
+#view-btn{
+    background-color: rgb(11, 59, 233);
+}
+/* .status-div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+} */
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+
+form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form button {
+    background-color: #026aa7;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+}
+
+form button:hover {
+    background-color: #005083;
+}
