@@ -3,13 +3,13 @@
 ### Change dir
 For frontend :
   ```bash
-  ch frontend
+  cd frontend
+  npm install
+  npm start
 ```
 For backend :
   ```bash
-  ch backend
-```
-### TO start Project for both
-```bash
-npm start
+  cd backend
+  npm install
+  npm start
 ```
